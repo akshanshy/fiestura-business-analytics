@@ -53,7 +53,7 @@ payments = payments[[
     "created_at"
 ]]
 
-# Standardize dates
+# Standardize date
 for df, columns in [
     (events, ["start_date", "end_date", "created_at"]),
     (registrations, ["created_at"]),
